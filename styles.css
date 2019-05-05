@@ -2,8 +2,7 @@ body {
 	font-family: "Avenir Next";
 	text-align: center;
 	margin: 0;
-/*	color: white;
-*/}
+}
 
 ul {
 	margin: 0;
@@ -86,7 +85,7 @@ main h1 {
 
 .main_img {
 	width: 100%;
-	height: 800px;
+	height: 600px;
 	background: url('image.jpg');
 	background-size: cover;
 }
@@ -94,7 +93,7 @@ main h1 {
 .news {
 	border: solid;
 	border-color: black;
-	margin: 100px auto;
+	margin: auto;
 	margin-top: 10px;
 	border-radius: 20px;
 	width: 70%;
