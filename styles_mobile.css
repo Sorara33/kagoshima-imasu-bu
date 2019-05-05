@@ -30,14 +30,8 @@ h2 {
 	margin: 0 auto;
 }
 
-.btn a {
-	font-size: 60px;
-	text-decoration: none;
-	color: white;
-}
-
-.btn a:hover {
-	color: #aaa;
+.btn:hover {
+	background: #6b58de;
 }
 
 
@@ -103,8 +97,14 @@ h2 {
 	padding: 0;
 }
 
-main h1 {
+.main h1 {
 	float: center;
+}
+
+.main a {
+	color: white;
+	font-size: 60px;
+	text-decoration: none;
 }
 
 .main_img {
