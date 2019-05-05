@@ -13,20 +13,25 @@ li {
 }
 
 h1 {
-	font-size: 50px;
+	font-size: 60px;
 	margin: 0;
-	padding: 8px 0;
+	padding: 40px 0;
+}
+
+h2 {
+	margin: 50px;
 }
 
 .btn {
 	background: #7b68ee;
-	padding: 10px 0;
-	width: 200px;
-	border-radius: 5px;
+	padding: 40px 0;
+	width: 400px;
+	border-radius: 40px;
 	margin: 0 auto;
 }
 
 .btn a {
+	font-size: 60px;
 	text-decoration: none;
 	color: white;
 }
@@ -41,13 +46,13 @@ h1 {
 .header {
 	background-color: #ff69b4;
 	color: #fff;
-	height: 90px;
-	overflow: hidden;
+/*	height: 90px;
+*/	overflow: hidden;
 }
 
 .header-logo {
-	float: left;
-	font-size: 36px;
+/*	float: left;
+*/	font-size: 66px;
 	padding: 20px 40px;
 }
 
@@ -56,20 +61,38 @@ h1 {
 	color: white;
 }
 
+.line {
+	height: 115px;
+}
+
+.header-list ul {
+	padding: 0;
+}
+
 .header-list li {
 /*	float: left;
-*/	font-size: 20px;
-	padding: 30px 20px;
+*/	font-size: 50px;
+	padding: 20px 0;
+	background: #dd5099;
 }
 
 .header-list li a {
 	text-decoration: none;
 	color: white;
-
-}
+/*	background: #cac
+*/}
 
 .header-list li a:hover {
 	color: black;
+}
+
+.left {
+	width: 50%;
+	float: left;
+	position: center;
+}
+
+.right {
 }
 
 
@@ -92,13 +115,14 @@ main h1 {
 }
 
 .news {
+	font-size: 50px;
 	border: solid;
 	border-color: black;
 	margin: auto;
-	margin-top: 10px;
-	border-radius: 20px;
+	margin-top: 40px;
+	border-radius: 60px;
 	width: 70%;
-	height: 200px;
+	height: 700px;
 }
 
 .news p {
@@ -113,9 +137,10 @@ main h1 {
 /* footer */
 
 .footer {
+	font-size: 40px;
 	color: #555;
 	background: #ccc;
-	padding-top: 50px;
+	padding-top: 100px;
 	padding-bottom: 500px;
 }
 
