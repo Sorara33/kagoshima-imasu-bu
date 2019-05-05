@@ -25,13 +25,8 @@ h1 {
 	margin: 0 auto;
 }
 
-.btn a {
-	text-decoration: none;
-	color: white;
-}
-
-.btn a:hover {
-	color: #aaa;
+.btn:hover {
+	background: #6b58de;
 }
 
 
@@ -79,8 +74,14 @@ h1 {
 	padding: 0;
 }
 
-main h1 {
+.main h1 {
 	float: center;
+}
+
+.main a {
+	color: white;
+	text-decoration: none;
+
 }
 
 .main_img {
