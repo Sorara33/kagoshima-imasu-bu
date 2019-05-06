@@ -45,8 +45,7 @@ h2 {
 }
 
 .header-logo {
-/*	float: left;
-*/	font-size: 66px;
+	font-size: 60px;
 	padding: 20px 40px;
 }
 
@@ -105,6 +104,10 @@ h2 {
 	color: white;
 	font-size: 60px;
 	text-decoration: none;
+}
+
+.main p {
+	margin: 16px;
 }
 
 .main_img {
